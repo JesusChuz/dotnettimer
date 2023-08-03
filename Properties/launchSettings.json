@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "dotnettimer": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7018",
+      "launchBrowser": false
+    }
+  }
+}
