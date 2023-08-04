@@ -8,7 +8,7 @@ namespace Company.Function
     public class TimerTrigger1
     {
         [FunctionName("TimerTrigger1")]
-        public void Run([TimerTrigger("0 */1 * * * *")]TimerInfo myTimer, ILogger log)
+        public void Run([TimerTrigger("* * * * * *")]TimerInfo myTimer, ILogger log)
         {
             log.LogInformation($"Test4 C# Timer trigger function executed at: {DateTime.Now}");
         }
