@@ -10,7 +10,7 @@ namespace Company.Function
         [FunctionName("TimerTrigger1")]
         public void Run([TimerTrigger("* * * * * *")]TimerInfo myTimer, ILogger log)
         {
-            log.LogInformation($"Test Exact same pipelines as customer plan C# Timer trigger function executed at: {DateTime.Now}");
+            log.LogInformation($"Test Exact same pipelines as customer plan 1 C# Timer trigger function executed at: {DateTime.Now}");
         }
     }
 }
